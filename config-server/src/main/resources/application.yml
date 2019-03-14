@@ -1,0 +1,10 @@
+server:
+  port: 8888 
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/testapp-config-server
+          username: testapp-config-server-user-at-254142872025
+          password: OfLjq+0OYAEd7SlP1wCvstC43ghhI+NLMjiva0HeOcg=
